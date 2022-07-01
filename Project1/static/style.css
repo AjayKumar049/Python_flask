@@ -1,0 +1,21 @@
+body{
+    background-color: lawngreen;
+}
+h1{
+    font-size: 35px;
+}
+#number{
+    font-size: 28px;
+}
+#numbers{
+    font-size: 28px;
+}
+h2{
+    color: blueviolet;
+}
+h3{
+    color: rgb(226, 43, 223);
+}
+h4{
+    color: brown;
+}

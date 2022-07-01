@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <!--Our css link-->
+        <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Simple Calculator</h1>
+        <!--Input Section Start-->
+        <h2 style="font-size:28px;"> Enter 1st number  :</h2><br>
+            <input type="number" value="" id="number"><br><br>
+        <h3 style="font-size:28px;">Enter 2nd number :</h3><br>
+            <input type="number" value="" id="numbers"><br><br>
+            <input type="button" value="plus" onclick="return calfun()">
+            <input type="button" value="minus" onclick="return calfun1()"><br><br>
+            <input type="button" value="multliplication" onclick="return calfun2()">
+            <input type="button" value="division" onclick="return calfun3()"><br><br>
+            <h4 style="font-size:28px;">The Result is : <br>
+            <span id="Result"></span>
+         <!--Input Section Ends-->
+        <!--Our Js link-->
+        <script src="{{ url_for('static', filename='cal.js') }}"></script>
+    </body>
+</html>
